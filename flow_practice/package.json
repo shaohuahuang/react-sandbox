@@ -1,0 +1,15 @@
+{
+  "name": "flow_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flow-bin": "^0.47.0"
+  }
+}
